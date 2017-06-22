@@ -1,0 +1,237 @@
+<!-- Module #5 - Tables
+ 
+Create a new branch.
+Stub out a Bootstrapped page.
+Here is some code for a basic table to add inside the .container: -->
+<!-- ================================================================================================================================================== -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Bootstrap Setup </title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class= "container">
+			<table class="table">  <!--"table table-hover"||"table table-bordered"||"table table-striped"-->
+				<thead>
+					<tr>
+						<th> # </th>
+						<th> First Name </th>
+						<th> Last Name </th>
+						<th> Username </th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope= "row"> 1 </th>
+						<td> Paul </td>
+						<td> O'Connor </td>
+						<td> poconnor@elevenfifty.org </td>
+					</tr>
+					<tr>
+						<th scope= "row"> 2 </th>
+						<td> Kenn </td>
+						<td> Pascascio </td>
+						<td> kpascasop@elevenfifty.org </td>
+					</tr>
+					<tr>
+						<th scope= "row"> 3 </th>
+						<td> James </td>
+						<td> Handshoe </td>
+						<td> jhandshoe@elevenfifty.org </td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<script src= "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src= "js/bootstrap.min.js"></script>
+
+	</body>
+</html>
+<br>
+<!-- ================================================================================================================================================== -->
+<!-- Challenges: 
+     Bronze: Make a basic table that contains the first and last name of some of your friends. -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Bootstrap Setup </title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	</head>
+	<body>
+		<div class= "container">
+			<table class= "table"> 
+				<thead>
+					<tr>
+						<td><b> # </b></td>
+						<td><b> First Name </b></td>
+						<td><b> Last Name </b></td>	
+					</tr>				
+				</thead>
+				<tbody>
+					<tr>
+						<th scope = "row" > 1 </th>
+						<td> Eric </td>
+						<td> Derolf </td>
+					</tr>
+					<tr>
+						<th scope = "row" > 2 </th>
+						<td> Mariah </td>
+						<td> Perez </td>
+					</tr>
+					<tr>
+						<th scope = "row" > 3 </th>
+						<td> Dustin </td>
+						<td> Riggs </td>
+					</tr>
+					<tr>
+						<th scope = "row" > 4 </th>
+						<td> Matt </td>	
+						<td> Ulm </td>
+					</tr>
+					<tr>
+						<th scope = "row" > 1 </th>
+						<td> Dustin </td>
+						<td> Mahoney </td>
+					</tr>
+					<tr>
+						<th scope = "row" > 2 </th>
+						<td> Piper </td>
+						<td> Hartman </td>
+					</tr>
+				</tbody>
+		</div>
+		<script src= "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src= "js/bootstrap.min.js"></script>
+
+	</body>
+</html>
+<br>
+<!-- ================================================================================================================================================== -->
+<!-- Silver: Make a table that has rows highlighted using contextual classes. -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Bootstrap Setup </title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	</head>
+	<body>
+		<div class= "container">
+			<table class= "table"> 
+				<thead>
+					<tr>
+						<td><b> # </b></td>
+						<td><b> First Name </b></td>
+						<td><b> Last Name </b></td>	
+					</tr>				
+				</thead>
+				<tbody>
+					<tr  class= "success">
+						<th scope = "row" > 1 </th>
+						<td> Eric </td>
+						<td> Derolf </td>
+					</tr>
+					<tr>
+						<th scope = "row" > 2 </th>
+						<td> Mariah </td>
+						<td> Perez </td>
+					</tr>
+					<tr  class= "success">
+						<th scope = "row" > 3 </th>
+						<td> Dustin </td>
+						<td> Riggs </td>
+					</tr>
+					<tr>
+						<th scope = "row" > 4 </th>
+						<td> Matt </td>	
+						<td> Ulm </td>
+					</tr>
+					<tr class= "success">
+						<th scope = "row" > 1 </th>
+						<td> Dustin </td>
+						<td> Mahoney </td>
+					</tr>
+					<tr>
+						<th scope = "row" > 2 </th>
+						<td> Piper </td>
+						<td> Hartman </td>
+					</tr>
+					<tr class= "success">
+						<th scope = "row" > 2 </th>
+						<td> Jane </td>
+						<td> Doe </td>
+					</tr>
+				</tbody>
+		</div>
+		<script src= "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src= "js/bootstrap.min.js"></script>
+
+	</body>
+</html>
+<br>
+<!-- ================================================================================================================================================== -->
+<!-- Gold: Make a table that highlights the row you are hovering over with your mouse. -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Bootstrap Setup </title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	</head>
+	<body>
+		<div class= "container">
+			<table class= "table table-hover">
+				<thead>
+					<tr>
+						<td><b> # </b></td>
+						<td><b> First Name </b></td>
+						<td><b> Last Name </b></td>	
+					</tr>				
+				</thead>
+				<tbody class = "hover">
+					<tr>
+						<th scope = "row" > 1 </th>
+						<td> Eric </td>
+						<td> Derolf </td>
+					</tr>
+					<trhover>
+						<th scope = "row" > 2 </th>
+						<td> Mariah </td>
+						<td> Perez </td>
+					</tr>
+					<tr>
+						<th scope = "row" > 3 </th>
+						<td> Dustin </td>
+						<td> Riggs </td>
+					</tr>
+					<tr>
+						<th scope = "row" > 4 </th>
+						<td> Matt </td>	
+						<td> Ulm </td>
+					</tr>
+					<tr>
+						<th scope = "row" > 1 </th>
+						<td> Dustin </td>
+						<td> Mahoney </td>
+					</tr>
+					<tr>
+						<th scope = "row" > 2 </th>
+						<td> Piper </td>
+						<td> Hartman </td>
+					</tr>
+				</tbody>
+		</div>
+		<script src= "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src= "js/bootstrap.min.js"></script>
+
+	</body>
+</html>

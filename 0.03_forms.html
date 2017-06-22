@@ -1,0 +1,129 @@
+<!-- Module #3 Forms
+ 
+Create a new file called 0.03_forms.
+Stub out a Bootstrapped page, if you need to, copy from previous modules.
+Inside the container, add some code for a basic form to add inside the .container:
+
+You can read up more on forms here: http://getbootstrap.com/css/?#forms
+Once you have read into them, try the following challenges: -->
+<!-- ================================================================================================================================================= -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Bootstrap Setup </title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+	</head>
+	<body>
+		<div class= "container">
+			<h1>Sample Sign-up Form</h1>
+			<div class= "form-group row">
+				<label for="username" class="col-2 col-form-label"> Username </label>
+				<div class= "col-10">
+					<input type="form-control" type="text" value="username"</label>
+						<br>
+						<br>
+				<label class="sr-only" for="inputHelpBlock">Input with help text</label>
+					<input type="text" id="inputHelpBlock" class="form-control" aria-describedby="helpBlock">
+						<br>...
+					<span id="helpBlock" class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+
+
+				</div>
+			</div>
+		</div>
+		<script src= "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src= "js/bootstrap.min.js"></script>
+
+	</body>
+</html>
+
+<br>
+<!-- ================================================================================================================================================= -->
+<!-- Challenges:
+Bronze: Add a password field and a confirm password field -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Forms Setup </title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+	</head>
+	<body>
+		<div class= "container">
+			<h1> Sign-in & Confirm Password</h1>
+				<div class= "form-group row">
+					<label for= "username" class= "col-2 col-fors-label"> Username </label>
+						<div class= "col-10">
+							<input type="form-control" type="text" value="username"</label>
+								<br>
+								<br>	
+				<div class= "form-group row">
+					<label for= "password" class= "col-2 col-fors-label"> Password </label>
+						<div class= "col-10">
+							<input type="form-control" type="text" value="password"</label>
+								<br>
+								<br>
+				<div class= "form-group row">
+					<label for= "confirm password" class= "col-2 col-fors-label"> Confirm Password </label>
+						<div class= "col-10">
+							<input type="form-control" type="text" value="confirm password"</label>
+								<br>
+								<br>
+					<label class="sr-only" for="inputHelpBlock">Input with help text</label>
+							<input type="text" id="inputHelpBlock" class="form-control" aria-describedby="helpBlock">
+								<br>...
+							<span id="helpBlock" class="help-block">"A block of help text that breaks onto a new line and may extend beyond one line."</span>
+						</div>
+				</div>
+		</div>
+			<script src= "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+			<script src= "js/bootstrap.min.js"></script>
+
+	</body>
+</html>
+
+<br>
+
+<!-- ================================================================================================================================================= -->
+<!-- Silver:
+Make a field that is readonly and cannot be edited by the viewer -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Readonly State </title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+	</head>
+	<body>
+		<div class= "container">
+			<h1> Read Only </h1>
+				<div class= "form-group row">
+					<label for= "readonly" class= "col-2 col-fors-label"> For employer personnel only </label>
+						<div class= "col-10">
+							<input class="form-control" type="text" placeholder="Readonly input here…" readonly>
+								<br>
+								<br>
+					<label class="sr-only" for="inputHelpBlock">Input with help text</label>
+							<input type="text" id="inputHelpBlock" class="form-control" aria-describedby="helpBlock">
+								<br>...
+							<span id="helpBlock" class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+								<br>
+								<br>
+
+
+<!-- ================================================================================================================================================= -->
+<!-- Gold: Add help text to all of your previous fields that you have created -->
+<!-- 	 DONE: Module | Bronze | Silver -->
+				<h1> Input With Help Text </h1>
+					<label class="sr-only" for="inputHelpBlock">Input with help text</label>
+							<input type="text" id="inputHelpBlock" class="form-control" aria-describedby="helpBlock">
+								<br>...
+							<span id="helpBlock" class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+
+<!-- ================================================================================================================================================= -->
+<!-- Once you have finished the challenges, commit your code and move on -->
+<!-- ================================================================================================================================================= -->
